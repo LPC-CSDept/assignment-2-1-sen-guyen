@@ -14,8 +14,8 @@ def main():
     print (f'The number of FEMALE students in your class is \t {f_total:4d}')
     print (f'The TOTAL number of students in your class is \t {classtotal:4d}')
     print()
-    print (f'The percent of your class that is MALE is \t {m_perc:.2f}')
-    print (f'The percent of your class that is FEMALE is \t {f_perc:.2f}')
+    print (f'The percent of your class that is MALE is \t {m_perc:.2%}')
+    print (f'The percent of your class that is FEMALE is \t {f_perc:.2%}')
 
     """
     ########################################
